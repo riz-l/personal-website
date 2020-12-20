@@ -1,4 +1,4 @@
-export default {
+export const darkTheme = {
   colors: {
     global: {
       backgroundPrimary: "#202020",

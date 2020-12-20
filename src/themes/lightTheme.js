@@ -1,4 +1,4 @@
-export default {
+export const lightTheme = {
   colors: {
     global: {
       backgroundPrimary: "#f1f1f1",

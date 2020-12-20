@@ -3,8 +3,8 @@ import React, { useState, useEffect } from "react";
 import styled, { ThemeProvider } from "styled-components";
 
 // Import: Themes
-import lightTheme from "./themes/lightTheme";
-import darkTheme from "./themes/darkTheme";
+import { lightTheme } from "./themes/lightTheme";
+import { darkTheme } from "./themes/darkTheme";
 
 // Import: Components
 import { Header } from "./components";
