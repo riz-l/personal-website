@@ -1,8 +1,21 @@
 // Import: Dependencies
 import React from "react";
 
-// Import: Elements
-import { Container, Wrapper } from "./Header.elements";
+// Import: Icons
+import { FiMenu as NavIcon } from "react-icons/fi";
+
+// Import: Elements, Components
+import {
+  Container,
+  Wrapper,
+  Left,
+  LightLabel,
+  ScaleSwitch,
+  DarkLabel,
+  Right,
+  NavToggle,
+} from "./Header.elements";
+import { Switch } from "../index";
 
 // Component: Header
 export default function Header({
@@ -14,8 +27,29 @@ export default function Header({
   return (
     <Container>
       <Wrapper>
-        <h2>Header</h2>
-        <h2>Header</h2>
+        <Left>
+          <LightLabel>Light</LightLabel>
+          <ScaleSwitch>
+            <Switch
+              isOn={isDarkTheme}
+              handleToggle={() => {
+                setIsDarkTheme((isDarkTheme) => !isDarkTheme);
+                localStorage.setItem(
+                  "isDarkTheme",
+                  (isDarkTheme) => !isDarkTheme
+                );
+              }}
+              onColor="#06d6A0"
+            />
+          </ScaleSwitch>
+          <DarkLabel>Dark</DarkLabel>
+        </Left>
+
+        <Right>
+          <NavToggle onClick={() => setIsNavOpen((isNavOpen) => !isNavOpen)}>
+            <NavIcon />
+          </NavToggle>
+        </Right>
       </Wrapper>
     </Container>
   );

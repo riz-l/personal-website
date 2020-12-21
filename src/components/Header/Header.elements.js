@@ -1,5 +1,5 @@
 // Import: Dependencies
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 // Element: Container
 export const Container = styled.header`
@@ -20,6 +20,69 @@ export const Container = styled.header`
 export const Wrapper = styled.div`
   align-items: center;
   display: flex;
+  height: 100%;
   justify-content: space-between;
   width: 100%;
+`;
+
+// Element: Left
+export const Left = styled.div`
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+`;
+
+// Element: ScaleSwitch
+export const ScaleSwitch = styled.div`
+  transform: scale(0.65);
+  -webkit-tap-highlight-color: transparent;
+`;
+
+// Element: LightLabel
+export const LightLabel = styled.span`
+  color: ${(props) => props.theme.colors.global.textSecondary};
+  letter-spacing: 1px;
+  margin-left: 1rem;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 1024px) {
+    display: none;
+    margin-left: 0;
+  }
+`;
+
+// Element: DarkLabel
+export const DarkLabel = styled.span`
+  color: ${(props) => props.theme.colors.global.textSecondary};
+  letter-spacing: 1px;
+  text-transform: uppercase;
+`;
+
+// Element: Right
+export const Right = styled.div`
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+`;
+
+// Element: NavToggle
+export const NavToggle = styled.div`
+  background: pink;
+
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 1rem;
+  transition: all 100ms linear;
+
+  & svg {
+    fill: ${(props) => props.theme.colors.global.textSecondary};
+    height: 35px;
+    transition: all 100ms linear;
+    width: 35px;
+  }
 `;
