@@ -1,18 +1,18 @@
 export const lightTheme = {
   colors: {
     global: {
-      backgroundPrimary: "#f1f1f1",
-      backgroundSecondary: "#ffffff",
-      textPrimary: "#202020",
-      textSecondary: "#292929",
+      backgroundPrimary: "#f4f4f6",
+      backgroundSecondary: "#e0e0e6",
+      textPrimary: "#2a2a2e",
+      textSecondary: "#38383d",
       highlightPrimary: "#ff5851",
       highlightSecondary: "#ff7570",
     },
     header: {
-      backgroundPrimary: "#202020",
-      backgroundSecondary: "#292929",
-      textPrimary: "#ffffff",
-      textSecondary: "#f1f1f1",
+      backgroundPrimary: "#2a2a2e",
+      backgroundSecondary: "#38383d",
+      textPrimary: "#f4f4f6",
+      textSecondary: "#e0e0e6",
     },
     homeGradient: {
       gradientPrimary: "#6d5e90",
