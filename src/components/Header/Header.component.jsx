@@ -2,7 +2,7 @@
 import React from "react";
 
 // Import: Icons
-import { FiMenu as NavIcon } from "react-icons/fi";
+import { BiMenu as NavIcon } from "react-icons/bi";
 
 // Import: Elements, Components
 import {

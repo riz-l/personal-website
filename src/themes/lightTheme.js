@@ -2,9 +2,11 @@ export const lightTheme = {
   colors: {
     global: {
       backgroundPrimary: "#f4f4f6",
-      backgroundSecondary: "#e0e0e6",
-      textPrimary: "#2a2a2e",
-      textSecondary: "#38383d",
+      backgroundSecondary: "#ffffff",
+      backgroundTertiary: "#c7c7c1",
+      textPrimary: "#1d1d20",
+      textSecondary: "#2a2a2e",
+      textTertiary: "#38383d",
       highlightPrimary: "#ff5851",
       highlightSecondary: "#ff7570",
     },
