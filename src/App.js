@@ -1,13 +1,15 @@
 // Import: Dependencies
 import React, { useState, useEffect } from "react";
 import styled, { ThemeProvider } from "styled-components";
+import { Switch, Route } from "react-router-dom";
 
 // Import: Themes
 import { lightTheme } from "./themes/lightTheme";
 import { darkTheme } from "./themes/darkTheme";
 
-// Import: Components
+// Import: Components, Pages
 import { Header } from "./components";
+import { Home } from "./pages";
 
 // Component: App
 export default function App() {
@@ -57,7 +59,10 @@ export default function App() {
           isNavOpen={isNavOpen}
           setIsNavOpen={setIsNavOpen}
         />
-        <h1>Riz</h1>
+
+        <Switch>
+          <Route exact path="/" component={Home} />
+        </Switch>
       </Container>
     </ThemeProvider>
   );

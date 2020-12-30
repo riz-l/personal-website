@@ -1,2 +1,2 @@
-// Component: Anon
-// export { default as Anon } from "./Anon/Anon.component";
+// Component: Home
+export { default as Home } from "./Home/Home.component";
