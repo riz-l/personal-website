@@ -1,8 +1,14 @@
 // Import: Dependencies
 import React, { useEffect } from "react";
 
+// Import: Icons
+import { FaChevronDown as DownIcon } from "react-icons/fa";
+
 // Import: Elements
 import { Container, Splash, Heading } from "./Home.elements";
+
+// Import: Components
+import { Button } from "../../components";
 
 // Page: Home
 export default function Home() {
@@ -17,6 +23,8 @@ export default function Home() {
         <Heading>
           <h1>Joshua Layton</h1>
           <span>Front-end Developer</span>
+
+          <Button text="My Work" icon={<DownIcon />} />
         </Heading>
       </Splash>
     </Container>

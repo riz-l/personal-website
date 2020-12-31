@@ -1,3 +1,6 @@
+// Component: Button
+export { default as Button } from "./Button/Button.component";
+
 // Component: Header
 export { default as Header } from "./Header/Header.component";
 

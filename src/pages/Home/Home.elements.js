@@ -29,7 +29,6 @@ export const Splash = styled.div`
   );
   background-size: 400% 400%;
   height: 100%;
-  padding-bottom: 18rem;
   transition: all 350ms ease-in-out;
   width: 100%;
 `;
@@ -47,14 +46,16 @@ export const Heading = styled.div`
 
   & h1 {
     color: ${(props) => props.theme.colors.global.backgroundPrimary};
-    font-size: 4rem;
+    font-size: 4.8rem;
+    font-weight: 400;
+    letter-spacing: 4px;
     text-transform: uppercase;
     transition: all 100ms linear;
   }
 
   & span {
     color: ${(props) => props.theme.colors.global.backgroundSecondary};
-    font-size: 2rem;
+    font-size: 2.4rem;
     text-transform: uppercase;
     transition: all 100ms linear;
   }

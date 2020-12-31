@@ -4,7 +4,7 @@ import styled from "styled-components/macro";
 // Element: Container
 export const Container = styled.header`
   align-items: center;
-  background: ${(props) => props.theme.colors.global.backgroundSecondary};
+  background: ${(props) => props.theme.colors.global.backgroundPrimary};
   box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
   display: flex;
   justify-content: center;
@@ -69,7 +69,7 @@ export const Right = styled.div`
 
 // Element: NavToggle
 export const NavToggle = styled.div`
-  background: ${(props) => props.theme.colors.global.backgroundSecondary};
+  background: ${(props) => props.theme.colors.global.backgroundPrimary};
   align-items: center;
   cursor: pointer;
   display: flex;
@@ -79,7 +79,7 @@ export const NavToggle = styled.div`
   transition: all 100ms linear;
 
   &:hover {
-    background: ${(props) => props.theme.colors.global.backgroundPrimary};
+    background: ${(props) => props.theme.colors.global.backgroundSecondary};
     transition: all 100ms linear;
 
     & svg {
