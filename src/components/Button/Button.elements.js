@@ -11,6 +11,10 @@ export const Container = styled.div`
   padding: 1.2rem 2rem;
   transition: all 150ms linear;
 
+  @media screen and (max-width: 459px) {
+    display: none;
+  }
+
   & p {
     color: ${(props) => props.theme.colors.global.textSecondary};
     font-size: 1.6rem;
