@@ -54,7 +54,7 @@ export default function Gallery() {
       <Item>
         <GalleryItem
           text="Social Network"
-          title="'Social media' written using various fabric cutouts"
+          title="Facebook symbols, icons and logos printed onto pin buttons"
           image="https://images.unsplash.com/photo-1491951931722-5a446214b4e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2006&q=80"
         />
       </Item>
