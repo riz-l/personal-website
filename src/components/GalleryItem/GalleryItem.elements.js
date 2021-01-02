@@ -20,7 +20,7 @@ export const Container = styled.div`
   filter: brightness(95%) saturate(30%);
   height: 100%;
   position: relative;
-  transition: all 100ms ease-in-out;
+  transition: all 150ms ease-in-out;
   width: 100%;
   -webkit-tap-highlight-color: transparent;
 
@@ -28,7 +28,7 @@ export const Container = styled.div`
     box-shadow: 0 11px 8px -9px rgba(0, 0, 0, 0.35);
     filter: brightness(100%) saturate(100%);
     transform: translateY(-6px);
-    transition: all 100ms ease-in-out;
+    transition: all 150ms ease-in-out;
   }
 `;
 
@@ -47,7 +47,7 @@ export const TextWrapper = styled.div`
 
 // Element: Text
 export const Text = styled.div`
-  background: ${(props) => props.theme.colors.global.backgroundSecondary};
+  background: ${(props) => props.theme.colors.global.backgroundPrimary};
   color: ${(props) => props.theme.colors.global.textPrimary};
   cursor: pointer;
   font-size: 1.4rem;
@@ -60,7 +60,6 @@ export const Text = styled.div`
 
   &:hover {
     color: ${(props) => props.theme.colors.global.highlightPrimary};
-    background: ${(props) => props.theme.colors.global.backgroundSecondary};
     border-radius: 80px;
     transition: background 150ms linear, color 150ms linear,
       border-radius 300ms linear;

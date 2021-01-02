@@ -55,7 +55,7 @@ export default function Gallery() {
         <GalleryItem
           text="Social Network"
           title="'Social media' written using various fabric cutouts"
-          image="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+          image="https://images.unsplash.com/photo-1491951931722-5a446214b4e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2006&q=80"
         />
       </Item>
     </Container>

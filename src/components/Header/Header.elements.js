@@ -11,7 +11,7 @@ export const Container = styled.header`
   height: 75px;
   position: sticky;
   top: 0;
-  transition: all 100ms linear;
+  transition: all 150ms linear;
   width: 100%;
   z-index: 2;
 `;
@@ -80,22 +80,22 @@ export const NavToggle = styled.div`
   height: 100%;
   justify-content: center;
   padding: 0 1rem;
-  transition: all 100ms linear;
+  transition: all 150ms linear;
 
   &:hover {
     background: ${(props) => props.theme.colors.global.backgroundSecondary};
-    transition: all 100ms linear;
+    transition: all 150ms linear;
 
     & svg {
       fill: ${(props) => props.theme.colors.global.textPrimary};
-      transition: all 100ms linear;
+      transition: all 150ms linear;
     }
   }
 
   & svg {
     fill: ${(props) => props.theme.colors.global.textSecondary};
     height: 35px;
-    transition: all 100ms linear;
+    transition: all 150ms linear;
     width: 35px;
   }
 `;

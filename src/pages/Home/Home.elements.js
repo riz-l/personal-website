@@ -51,7 +51,7 @@ export const Heading = styled.div`
   justify-content: center;
   margin: auto;
   text-align: center;
-  transition: all 100ms linear;
+  transition: all 150ms linear;
   width: 75%;
 
   @media screen and (max-width: 1024px) {
@@ -64,14 +64,14 @@ export const Heading = styled.div`
     font-weight: 600;
     letter-spacing: 4px;
     text-transform: uppercase;
-    transition: all 100ms linear;
+    transition: all 150ms linear;
   }
 
   & span {
     color: ${(props) => props.theme.colors.global.backgroundSecondary};
     font-size: 2.4rem;
     text-transform: uppercase;
-    transition: all 100ms linear;
+    transition: all 150ms linear;
   }
 `;
 
