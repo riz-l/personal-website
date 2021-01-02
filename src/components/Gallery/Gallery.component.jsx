@@ -14,48 +14,48 @@ export default function Gallery() {
       <Item>
         <GalleryItem
           text="One Response"
-          title="Toy ambulance"
+          title="Vibrant toy ambulance placed on wood"
           image="https://images.unsplash.com/photo-1502740479091-635887520276?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80"
         />
       </Item>
 
       <Item>
         <GalleryItem
-          text="One Response"
-          title="Toy ambulance"
-          image="https://images.unsplash.com/photo-1502740479091-635887520276?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80"
+          text="One ED"
+          title="Gloved hands pointing at medical scans"
+          image="https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
         />
       </Item>
 
       <Item>
         <GalleryItem
-          text="One Response"
-          title="Toy ambulance"
-          image="https://images.unsplash.com/photo-1502740479091-635887520276?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80"
+          text="Acronym Search"
+          title="Eurofighter Typhoon military jet taking off"
+          image="https://images.unsplash.com/photo-1580028468862-6895981d7a67?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
         />
       </Item>
 
       <Item>
         <GalleryItem
-          text="One Response"
-          title="Toy ambulance"
-          image="https://images.unsplash.com/photo-1502740479091-635887520276?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80"
+          text="Personal Website"
+          title="Hands typing on a laptop keyboard"
+          image="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1952&q=80"
         />
       </Item>
 
       <Item>
         <GalleryItem
-          text="One Response"
-          title="Toy ambulance"
-          image="https://images.unsplash.com/photo-1502740479091-635887520276?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80"
+          text="Keyboard Shop"
+          title="Mechanical keyboard laying alongside a key switch"
+          image="https://images.unsplash.com/photo-1595225476474-87563907a212?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80"
         />
       </Item>
 
       <Item>
         <GalleryItem
-          text="One Response"
-          title="Toy ambulance"
-          image="https://images.unsplash.com/photo-1502740479091-635887520276?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80"
+          text="Social Network"
+          title="'Social media' written using various fabric cutouts"
+          image="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
         />
       </Item>
     </Container>

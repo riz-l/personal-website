@@ -86,3 +86,13 @@ export const GalleryWrapper = styled.div`
     width: 85%;
   }
 `;
+
+// Element: Introduction
+export const Introduction = styled.div`
+  background: ${(props) => props.theme.colors.global.backgroundSecondary};
+  height: auto;
+  margin-top: 3.2rem;
+  padding: 4rem 0;
+  transition: all 150ms linear;
+  width: 100%;
+`;

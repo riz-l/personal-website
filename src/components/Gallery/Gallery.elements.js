@@ -4,7 +4,7 @@ import styled from "styled-components/macro";
 // Element: Container
 export const Container = styled.div`
   align-items: center;
-  background: ${(props) => props.theme.colors.global.backgroundSecondary};
+  background: ${(props) => props.theme.colors.global.backgroundPrimary};
   display: grid;
   grid-gap: 1.6rem;
   grid-template-columns: repeat(2, 1fr);
