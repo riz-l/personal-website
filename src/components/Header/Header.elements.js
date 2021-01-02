@@ -49,6 +49,11 @@ export const LightLabel = styled.span`
   letter-spacing: 1px;
   margin-left: 1rem;
   text-transform: uppercase;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 
   @media screen and (max-width: 1024px) {
     display: none;
@@ -61,6 +66,11 @@ export const DarkLabel = styled.span`
   color: ${(props) => props.theme.colors.global.textSecondary};
   letter-spacing: 1px;
   text-transform: uppercase;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 `;
 
 // Element: Right

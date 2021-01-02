@@ -57,6 +57,11 @@ export const Text = styled.div`
   text-transform: uppercase;
   transition: background 150ms linear, color 150ms linear,
     border-radius 300ms linear;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 
   &:hover {
     color: ${(props) => props.theme.colors.global.highlightPrimary};

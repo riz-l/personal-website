@@ -8,7 +8,6 @@ export const Container = styled.div`
   cursor: pointer;
   display: flex;
   justify-content: center;
-  margin-top: 4rem;
   padding: 1.2rem 2rem;
   transition: all 150ms linear;
 
@@ -18,6 +17,11 @@ export const Container = styled.div`
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: all 150ms linear;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
   }
 
   & svg {

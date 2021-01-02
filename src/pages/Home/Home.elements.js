@@ -40,6 +40,10 @@ export const Splash = styled.div`
   height: 84vh;
   transition: all 350ms ease-in-out;
   width: 100%;
+
+  @media screen and (max-height: 618px) {
+    margin-bottom: 8rem;
+  }
 `;
 
 // Element: Heading
@@ -58,20 +62,49 @@ export const Heading = styled.div`
     width: 85%;
   }
 
+  @media screen and (max-width: 648px) {
+    width: 90%;
+  }
+
   & h1 {
     color: ${(props) => props.theme.colors.global.backgroundPrimary};
-    font-size: 6rem;
+    font-size: clamp(3.2rem, 4vw, 6rem);
     font-weight: 600;
     letter-spacing: 4px;
     text-transform: uppercase;
     transition: all 150ms linear;
+
+    @media screen and (max-width: 502px) {
+      letter-spacing: 1px;
+    }
+
+    @media screen and (max-width: 459px) {
+      font-size: 2.6rem;
+    }
+
+    @media screen and (max-width: 376px) {
+      font-size: 2.2rem;
+    }
   }
 
   & span {
     color: ${(props) => props.theme.colors.global.backgroundSecondary};
-    font-size: 2.4rem;
+    font-size: clamp(1.2rem, 4vw, 2rem);
+    margin-bottom: 4rem;
     text-transform: uppercase;
     transition: all 150ms linear;
+
+    @media screen and (max-width: 718px) {
+      font-size: 1.8rem;
+    }
+
+    @media screen and (max-width: 431px) {
+      font-size: 1.4rem;
+    }
+
+    @media screen and (max-height: 371px) {
+      margin-bottom: 1rem;
+    }
   }
 `;
 
