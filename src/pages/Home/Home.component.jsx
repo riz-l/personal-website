@@ -5,10 +5,16 @@ import React, { useEffect } from "react";
 import { FaChevronDown as DownIcon } from "react-icons/fa";
 
 // Import: Elements
-import { Container, Splash, Heading } from "./Home.elements";
+import {
+  Background,
+  Container,
+  Splash,
+  Heading,
+  GalleryWrapper,
+} from "./Home.elements";
 
 // Import: Components
-import { Button } from "../../components";
+import { Button, Gallery } from "../../components";
 
 // Page: Home
 export default function Home() {
@@ -18,15 +24,21 @@ export default function Home() {
   }, []);
 
   return (
-    <Container>
-      <Splash>
-        <Heading>
-          <h1>Joshua Layton</h1>
-          <span>Front-end Developer</span>
+    <Background>
+      <Container>
+        <Splash>
+          <Heading>
+            <h1>Joshua Layton</h1>
+            <span>Front-end Developer</span>
 
-          <Button text="My Work" icon={<DownIcon />} />
-        </Heading>
-      </Splash>
-    </Container>
+            <Button text="My Work" icon={<DownIcon />} />
+          </Heading>
+        </Splash>
+
+        <GalleryWrapper>
+          <Gallery />
+        </GalleryWrapper>
+      </Container>
+    </Background>
   );
 }

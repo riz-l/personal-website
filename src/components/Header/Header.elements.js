@@ -8,7 +8,7 @@ export const Container = styled.header`
   box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
   display: flex;
   justify-content: center;
-  height: 65px;
+  height: 75px;
   position: sticky;
   top: 0;
   transition: all 100ms linear;
@@ -22,7 +22,11 @@ export const Wrapper = styled.div`
   display: flex;
   height: 100%;
   justify-content: space-between;
-  width: 100%;
+  width: 85%;
+
+  @media screen and (max-width: 1024px) {
+    width: 95%;
+  }
 `;
 
 // Element: Left

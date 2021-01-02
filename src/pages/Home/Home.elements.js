@@ -1,10 +1,19 @@
 // Import: Dependencies
 import styled, { keyframes } from "styled-components/macro";
 
+// Element: Background
+export const Background = styled.div`
+  background: ${(props) => props.theme.colors.global.backgroundPrimary};
+  height: 100%;
+  width: 100%;
+`;
+
 // Element: Container
 export const Container = styled.div`
   background: ${(props) => props.theme.colors.global.backgroundPrimary};
-  height: 76vh;
+  height: auto;
+  position: relative;
+  transition: all 150ms linear;
   width: 100%;
 `;
 
@@ -28,7 +37,7 @@ export const Splash = styled.div`
     ${(props) => props.theme.colors.homeGradient.gradientTertiary}
   );
   background-size: 400% 400%;
-  height: 100%;
+  height: 84vh;
   transition: all 350ms ease-in-out;
   width: 100%;
 `;
@@ -40,14 +49,19 @@ export const Heading = styled.div`
   flex-direction: column;
   height: 100%;
   justify-content: center;
+  margin: auto;
   text-align: center;
   transition: all 100ms linear;
-  width: 100%;
+  width: 75%;
+
+  @media screen and (max-width: 1024px) {
+    width: 85%;
+  }
 
   & h1 {
     color: ${(props) => props.theme.colors.global.backgroundPrimary};
-    font-size: 4.8rem;
-    font-weight: 400;
+    font-size: 6rem;
+    font-weight: 600;
     letter-spacing: 4px;
     text-transform: uppercase;
     transition: all 100ms linear;
@@ -58,5 +72,17 @@ export const Heading = styled.div`
     font-size: 2.4rem;
     text-transform: uppercase;
     transition: all 100ms linear;
+  }
+`;
+
+// Element: GalleryWrapper
+export const GalleryWrapper = styled.div`
+  background: ${(props) => props.theme.colors.global.backgroundSecondary};
+  height: auto;
+  margin: -6rem auto 6rem auto;
+  width: 75%;
+
+  @media screen and (max-width: 1024px) {
+    width: 85%;
   }
 `;
