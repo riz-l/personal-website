@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 // Import: Icons
-import { BiMenu as NavIcon } from "react-icons/bi";
+import { RiCloseFill as CloseIcon } from "react-icons/ri";
 
 // Import: Elements
 import {
@@ -26,7 +26,7 @@ export default function Navigation({ isDarkTheme, isNavOpen, setIsNavOpen }) {
       <ToggleWrapper>
         <Toggle>
           <ToggleButton onClick={() => setIsNavOpen((isNavOpen) => !isNavOpen)}>
-            <NavIcon />
+            <CloseIcon />
           </ToggleButton>
         </Toggle>
       </ToggleWrapper>

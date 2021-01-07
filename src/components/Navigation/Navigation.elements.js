@@ -25,8 +25,8 @@ export const ToggleWrapper = styled.div`
   align-items: center;
   display: flex;
   height: 75px;
+  min-height: 75px;
   justify-content: center;
-  top: 0;
   transition: all 150ms linear;
   z-index: 100;
 `;
@@ -35,12 +35,13 @@ export const ToggleWrapper = styled.div`
 export const Toggle = styled.div`
   align-items: center;
   display: flex;
+  height: 100%;
   justify-content: flex-end;
   margin: auto;
-  width: 70%;
+  width: 85%;
 
   @media screen and (max-width: 1024px) {
-    width: 85%;
+    width: 95%;
   }
 
   & .MuiButtonBase-root {
@@ -91,10 +92,10 @@ export const ToggleButton = styled.div`
 
 // Element: Options
 export const Options = styled.div`
+  align-items: center;
   display: flex;
   flex-direction: column;
-  height: 80vh;
-  align-items: center;
+  height: calc(100vh - 75px);
   justify-content: center;
   margin: auto;
 
