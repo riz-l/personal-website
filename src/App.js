@@ -8,7 +8,7 @@ import { lightTheme } from "./themes/lightTheme";
 import { darkTheme } from "./themes/darkTheme";
 
 // Import: Components, Pages
-import { Header } from "./components";
+import { Header, Navigation } from "./components";
 import { Home } from "./pages";
 
 // Component: App
@@ -53,6 +53,12 @@ export default function App() {
   return (
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
       <Container>
+        <Navigation
+          isDarkTheme={isDarkTheme}
+          isNavOpen={isNavOpen}
+          setIsNavOpen={setIsNavOpen}
+        />
+
         <Header
           isDarkTheme={isDarkTheme}
           setIsDarkTheme={setIsDarkTheme}
