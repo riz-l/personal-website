@@ -1,6 +1,9 @@
 // Import: Dependencies
 import React from "react";
 
+// Import: Icons
+import { IoMdDownload as DownloadIcon } from "react-icons/io";
+
 // Import: Elements
 import {
   Container,
@@ -23,7 +26,7 @@ export default function Footer() {
           <h3>Joshua Layton</h3>
 
           <ScaleCTA>
-            <Button text="Download CV" />
+            <Button text="Download CV" icon={<DownloadIcon />} />
           </ScaleCTA>
         </Heading>
 

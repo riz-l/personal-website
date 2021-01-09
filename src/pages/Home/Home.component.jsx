@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 
 // Import: Icons
-import { FaChevronDown as DownIcon } from "react-icons/fa";
+import { IoMdDownload as DownloadIcon } from "react-icons/io";
 
 // Import: Elements
 import {
@@ -31,7 +31,7 @@ export default function Home() {
             <h1>Joshua Layton</h1>
             <span>Front-end Developer</span>
 
-            <Button text="My Work" icon={<DownIcon />} />
+            <Button text="Download CV" icon={<DownloadIcon />} />
           </Heading>
         </Splash>
 

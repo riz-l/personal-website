@@ -5,9 +5,13 @@ import React from "react";
 import { Container } from "./Button.elements";
 
 // Component: Button
-export default function Button({ text, icon }) {
+export default function Button({ text, icon, margin }) {
   return (
-    <Container>
+    <Container
+      style={{
+        margin: `${margin}`,
+      }}
+    >
       <p>{text ? text : "Add Text"}</p>
       {icon && icon}
     </Container>
