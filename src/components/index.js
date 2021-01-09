@@ -1,6 +1,9 @@
 // Component: Button
 export { default as Button } from "./Button/Button.component";
 
+// Component: Footer
+export { default as Footer } from "./Footer/Footer.component";
+
 // Component: Gallery
 export { default as Gallery } from "./Gallery/Gallery.component";
 

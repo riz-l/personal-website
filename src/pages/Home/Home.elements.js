@@ -112,20 +112,10 @@ export const Heading = styled.div`
 export const GalleryWrapper = styled.div`
   background: ${(props) => props.theme.colors.global.backgroundSecondary};
   height: auto;
-  margin: -6rem auto 6rem auto;
+  margin: -6rem auto auto auto;
   width: 75%;
 
   @media screen and (max-width: 1024px) {
     width: 85%;
   }
-`;
-
-// Element: Introduction
-export const Introduction = styled.div`
-  background: ${(props) => props.theme.colors.global.backgroundSecondary};
-  height: auto;
-  margin-top: 3.2rem;
-  padding: 4rem 0;
-  transition: all 150ms linear;
-  width: 100%;
 `;

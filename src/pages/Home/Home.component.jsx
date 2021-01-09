@@ -11,7 +11,6 @@ import {
   Splash,
   Heading,
   GalleryWrapper,
-  Introduction,
 } from "./Home.elements";
 
 // Import: Components
@@ -39,8 +38,6 @@ export default function Home() {
         <GalleryWrapper>
           <Gallery />
         </GalleryWrapper>
-
-        <Introduction></Introduction>
       </Container>
     </Background>
   );
