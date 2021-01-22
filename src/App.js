@@ -8,7 +8,7 @@ import { lightTheme } from "./themes/lightTheme";
 import { darkTheme } from "./themes/darkTheme";
 
 // Import: Components, Pages
-import { Footer, Header, Navigation } from "./components";
+import { Header, Navigation } from "./components";
 import { Home } from "./pages";
 
 // Component: App
@@ -70,7 +70,7 @@ export default function App() {
           <Route exact path="/" component={Home} />
         </Switch>
 
-        <Footer />
+        {/* <Footer /> */}
       </Container>
     </ThemeProvider>
   );

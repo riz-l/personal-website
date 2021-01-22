@@ -63,6 +63,10 @@ export const Text = styled.div`
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
 
+  @media screen and (max-width: 392px) {
+    padding: 0.8rem 0.8rem;
+  }
+
   &:hover {
     color: ${(props) => props.theme.colors.global.highlightPrimary};
     border-radius: 80px;

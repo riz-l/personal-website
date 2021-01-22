@@ -29,7 +29,7 @@ export default function Home() {
         <Splash>
           <Heading>
             <h1>Joshua Layton</h1>
-            <span>Front-end Developer</span>
+            <span>Frontend Developer</span>
 
             <Button text="Download CV" icon={<DownloadIcon />} />
           </Heading>
